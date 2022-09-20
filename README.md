@@ -10,12 +10,12 @@
 ![image](https://user-images.githubusercontent.com/56622258/191202797-6ae77508-573f-4b19-b047-cae7bbc24aa7.png)
 
 ## Features
-- **Authentication **
+- **Authentication**
   1. Users can sign up or login using username and password.
   2. User can not submit campgrounds if they are not logged in.
--  **Authorization **
+-  **Authorization**
   1. User can only modify campgrounds created by them.
--  **Basic Functionality **
+-  **Basic Functionality**
   1. Add Name, Image and Description to the campground.
   2. Create, Update, Delete the Campground.
   3. Add reviews to campgrounds.
