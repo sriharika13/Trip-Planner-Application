@@ -7,6 +7,7 @@
 - This project was created using JavaScript, Node.js, Express, MongoDB, Passport.js was used to handle authentication.
 
 ![image](https://user-images.githubusercontent.com/56622258/191196367-1c7bad54-342b-4105-b612-2cdd2865bbe1.png)
+
 ![image](https://user-images.githubusercontent.com/56622258/191202797-6ae77508-573f-4b19-b047-cae7bbc24aa7.png)
 
 ## Features
