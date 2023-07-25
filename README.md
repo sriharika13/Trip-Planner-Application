@@ -6,9 +6,17 @@
 - This project is from a course called Web Developer Bootcamp by Colt Steele.
 - This project was created using JavaScript, Node.js, Express, MongoDB, Passport.js was used to handle authentication.
 
-![image](https://user-images.githubusercontent.com/56622258/191196367-1c7bad54-342b-4105-b612-2cdd2865bbe1.png)
+## Index Page
+![image](https://github.com/sriharika13/Trip-Planner-Application/assets/56622258/21e6a230-b422-40e0-8828-42d31e4a41de)
 
-![image](https://user-images.githubusercontent.com/56622258/191202797-6ae77508-573f-4b19-b047-cae7bbc24aa7.png)
+## Show Page
+![image](https://github.com/sriharika13/Trip-Planner-Application/assets/56622258/519b4ce5-6998-4d67-a3e6-bb200c62c160)
+
+## Added a Review
+![image](https://github.com/sriharika13/Trip-Planner-Application/assets/56622258/0c28b9e9-92a8-4c6f-bd57-e755fbd7c50e)
+
+## MongoDB Database Schema
+![monogdb schema yelpcamp](https://github.com/sriharika13/Trip-Planner-Application/assets/56622258/2d0cf361-8c14-464a-b6b0-4ba5c05445b4)
 
 ## Features
 - **Authentication**
