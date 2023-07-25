@@ -1,0 +1,22 @@
+<!-- //when register.ejs view is rendered, 
+    its content will be inserted into the layout/boilerplate.ejs layout, and the final HTML will be displayed -->
+<% layout('layout/boilerplate') %>
+<div class="container">
+<h1>Register</h1>
+    <!-- <img src="/assets/cofeeMug.jpg" class="card-img-top" alt="register Logo"> -->
+    <form action="/register" method="POST" class="validated-form" novalidate>
+        <div class="mb-3">
+            <label class="form-label" for="username">Username</label>
+            <input class="form-control" type="text" id="username" name="username" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-control" type="email" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="password">Password</label>
+            <input class="form-control" type="password" id="password" name="password" required>
+        </div>
+        <button class="btn btn-success">Register</button>
+    </form>
+</div>

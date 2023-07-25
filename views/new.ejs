@@ -1,0 +1,40 @@
+<% layout('layout/boilerplate')%>
+<div class="row">
+    <h1 class="text-center">New Campground</h1>
+    <div class="col-6 offset-3">
+        <form action="/camping" method="POST" novalidate class="validated-form">
+            <div class="mb-3">
+                <label class="form-label" for="title">Title</label>
+                <input class="form-control" type="text" id="title" placeholder="Alibaug Beach Camping"  name="title" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="location">Location</label>
+                <input class="form-control" type="text" id="location" placeholder="Karpewadi, Alibag, Maharashtra, India"  name="location" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="image">Image Url</label>
+                <input class="form-control" type="text" id="image" placeholder="link"  name="image" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="price">Campground Price</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="price-label">₹</span>
+                    <input type="text" class="form-control" id="price" placeholder="0.00" aria-label="price"
+                        aria-describedby="price-label" placeholder="Alibaug Beach Camping"  name="price" required>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label" for="description">Description</label>
+                <textarea class="form-control" type="text" id="description" placeholder="Escape to the serene Alibaug Beach for an unforgettable camping experience filled with breathtaking sunsets, thrilling indoor & outdoor activities, and cozy bonfire evenings. Soak up the peaceful surroundings, connect with nature, and make lasting memories with friends and family on this amazing campsite. Unwind, relax, and let the sounds of the Arabian Sea soothe your mind and heart."
+                  name="description"
+                    required></textarea>
+            </div>
+            <div class="mb-3">
+                <button class="btn btn-success">Add Campground</button>
+            </div>
+        </form>
+        <a href="/camping">All Campgrounds</a>
+    </div>
+</div>
+
